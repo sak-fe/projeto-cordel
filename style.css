@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap'); /* "Edu AU VIC WA NT HAND",*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Rubik+Mono+One&display=swap'); /*Rubik Mono One */
+
+:root{
+    --font-destaque: 'Rubik Mono One';
+    --font-hand: 'Edu AU VIC WA NT Hand';
+    --font-padrao: "Arial", "Verdana", "Helvetica", "sans-serif";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    min-height: 300px;
+    background-color: black;
+    margin: auto;
+    text-align: center;
+}
+
+header h1{
+    font-family: var(--font-destaque);
+    font-size: 5em;
+    color: white;
+    padding-top: 60px;
+}
+
+header h1 > span{
+    font-family: var(--font-destaque);
+    font-size: 2em;
+
+}
+
+header p{
+    font-family: var(--font-padrao);
+    color: white;
+    font-size: 1.1em;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+header p{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+    font-size: 2em;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+}
+
+header strong:hover{
+    text-decoration: underline;
+}
+
+
+.textobranco{
+    font-family: var(--font-hand);
+    font-size: 5em;
+    line-height: 2.5em;
+    font-weight: bold;
+    font-style: italic;
+    padding: 20px;
+    padding-top: 80px;
+}
+
+.imagem{
+    height: 99vh;
+    background-image: url("imagens/background001.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: auto;
+}
+
+.textoimagem{
+    color:white;
+    text-shadow: 500px solid rgba(8, 8, 8, 0.776);
+    font-family: var(--font-hand);
+    font-size: 5em;
+    line-height: 2.2em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.imagem2{
+    background-image: url("imagens/background002.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: auto;
+}
+
+
+footer{
+    background-color: black;
+    background-position: bottom bottom;
+    padding: 20px;
+    color: white;
+    font-family: var(--font-padrao);
+    font-size: 2em;  
+   text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+
+}
+
